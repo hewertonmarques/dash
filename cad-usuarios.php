@@ -31,7 +31,7 @@
                     <h2><i class="fa-solid fa-user-plus"></i> Novo Usuário</h2>
                     <p> Preencha os dados abaixo para registrar um novo acesso.</p>
                 </div>
-                <form action="processa.php" method="Post">
+                <form action="processa.php" method="POST">
                     <div class="form-group">
                         <label for="nome">Nome Completo</label>
                         <input type="text" id="email" placeholder="nome@empresa.com" required>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="form-action">
-                        <button type="" submit" class="" btn-save">Finalizar Cadastro</button>
+                        <button type="submit" class="btn-save">Finalizar Cadastro</button>
                         <a href="index.php" class="btn-cancel">Cancelar</a>
                     </div>
                 </form>

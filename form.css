@@ -30,6 +30,8 @@ input, select {
     transition: 0.3s;
 }
 
+input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0,74,141,0.1); }
+
 .btn-save {
     background-color: #27ae60;
     color: white;
@@ -39,5 +41,3 @@ input, select {
     cursor: pointer;
     font-weight: bold;
 }
-
-input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0,74,141,0.1); }
